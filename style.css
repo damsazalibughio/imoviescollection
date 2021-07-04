@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  background-color: #22254b;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: rgb(24, 185, 185);
+  /* transform: scale(1.03); */
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+.navbar-brand {
+  font-size: 1.3em;
+  font-weight: bolder;
+  color: rgb(18, 153, 153);
+}
+.navbar-brand:hover {
+  color: rgb(24, 185, 185);
+}
+.dropdown-menu {
+  background-color: #22254d;
+  opacity: 0.7;
+}
+
+.dropdown-menu a {
+  color: rgb(18, 153, 153);
+}
+.dropdown-menu a:hover {
+  background-color: rgb(18, 153, 153);
+  color: white;
+}
+
+.navbar {
+  padding: 1.2rem;
+}
+.navbar .nav-link {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(18, 153, 153);
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(18, 153, 153, 0.5)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar .nav-link:hover {
+  color: rgb(24, 185, 185);
+}
+
+footer {
+  background-color: #040627;
+}
+footer h5{
+  color: rgb(18, 153, 153);
+}
+
+
+footer li a {
+  color: #22254b;
+}
+footer p {
+  color: #383b64;
+}
+
+/* footer a:hover {
+  background-color: rgb(18, 153, 153);
+  color: white;
+} */
+
+@media (max-width: 576px) {
+  .card {
+    margin: 0 auto;
+  }
+
+  footer .container {
+    text-align: center;
+  }
+
+  footer ul {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
