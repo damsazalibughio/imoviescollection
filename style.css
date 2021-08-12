@@ -16,7 +16,12 @@ a {
 }
 a:hover {
   color: rgb(24, 185, 185);
+  transition: 0.5s ease;
   /* transform: scale(1.03); */
+}
+.active {
+  background-color: aqua;
+  border-radius: 3px;
 }
 ul {
   padding: 0;
@@ -27,6 +32,7 @@ li {
 
 .card:hover {
   transform: scale(1.03);
+  transition: 0.5s ease;
 }
 .navbar-brand {
   font-size: 1.3em;
@@ -68,10 +74,9 @@ li {
 footer {
   background-color: #040627;
 }
-footer h5{
+footer h5 {
   color: rgb(18, 153, 153);
 }
-
 
 footer li a {
   color: #22254b;
